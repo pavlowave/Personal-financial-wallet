@@ -1,3 +1,12 @@
+# Python
+*.pyc
+__pycache__/
+*.py[cod]
+
+# PyCharm
+.idea/
+*.iml
+*.ipynb_checkpoints/
+
+# Custom
 finances.txt
-.idea
-.gitignore
