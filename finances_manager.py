@@ -32,8 +32,6 @@ def write_data(filename, data):
                 file.write(f"{key}: {value}\n")
             file.write('\n')
 
-
-
 # Функция для вывода баланса
 def show_balance(data):
     total_income = 0
@@ -48,7 +46,6 @@ def show_balance(data):
     print(f"Текущий баланс: {balance}")
     print(f"Доходы: {total_income}")
     print(f"Расходы: {total_expense}")
-
 
 # Функция для добавления записи
 def add_record(data):
@@ -232,8 +229,6 @@ def search_records(data):
             break  # Возврат к предыдущему меню
         else:
             print("\nНекорректный выбор. Пожалуйста, выберите 1, 2, 3 или 4.")
-
-
 
 # Функция для вывода записи на экран
 def print_record(record):
